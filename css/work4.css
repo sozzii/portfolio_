@@ -57,11 +57,11 @@
 }
 
 .mockup img{
-    width: 100%;
-   
+    width: 100%;   
 }
 
 .setion4 img{
     width: 100%;
-    text-aline: center
+    text-aline: center;
+    margin: 0 auto;
 }
