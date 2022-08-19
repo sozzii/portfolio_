@@ -103,8 +103,6 @@ li p:nth-of-type(2){
     text-align: center;
 }
 
-
-
 .svg1{
     animation: svgL 1s infinite alternate forwards;
 }
@@ -279,9 +277,17 @@ li p:nth-of-type(2){
 }
 
 .topBtn{
-    position: absolute;
+    position: fixed;
+    right: 70px;
+    bottom: 70px;
+    opacity: 0;
+}
+
+.topBtn.active{
+    position: fixed;
     right: 70px;
     bottom: 150px;
+    opacity: 1;
 }
 
 /* 목업 */

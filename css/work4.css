@@ -26,7 +26,7 @@
 }
 
 .section3{
-    margin: 0 auto;
+    margin: 0 200px;
 }
 
 .designPage{
@@ -52,12 +52,12 @@
 }
 
 .mockup{
-    width: 1500px;
+    width: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .mockup img{
-    width: 1200px;
+    width: 100%;
 }
