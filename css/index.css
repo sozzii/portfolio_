@@ -1,0 +1,241 @@
+body{
+    background-color: #FBF4E4;
+}
+
+main{
+    width: 100%;
+}
+
+.plus{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 103px;
+    margin: 20% auto;
+    
+}
+
+.plus button{
+    border: 1px solid #F43B00;
+    width: 103px;
+    height: 103px;
+    border-radius: 100%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.plus span{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #F43B00;
+    width: 50px;
+}
+
+.plus span:nth-of-type(2){
+    transform: translate(-50%, -50%) rotate(90deg);
+    left: 49.5%;
+}
+
+.plus:hover span:nth-of-type(2){
+    transform: translate(-50%, -50%) rotate(0deg);
+    left: 49.5%;
+    transition: .5s;
+}
+
+.plus p{
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    color: #222222;
+}
+
+/*  */
+
+.sori{
+    width: 100%;
+    display: flex;
+}
+
+.so li:nth-of-type(1){
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    animation: move1 2s infinite alternate forwards;
+}
+
+@keyframes move1 {
+    0%{transform: rotate(12deg);}
+}
+
+.so li:nth-of-type(2){
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    animation: move2 3s infinite alternate forwards;
+}
+
+@keyframes move2 {
+    0%{transform: rotate(14deg);}
+}
+
+.so li:nth-of-type(3){
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    animation: move3 2s infinite alternate forwards;
+}
+
+@keyframes move3 {
+    0%{transform: rotate(-10deg);}
+}
+
+/*  */
+
+.ri li:nth-of-type(1){
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    animation: move1 3s infinite alternate forwards;
+}
+
+.ri li:nth-of-type(2){
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    animation: move2 3s infinite alternate forwards;
+}
+
+.ri li:nth-of-type(3){
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    animation: move3 2s infinite alternate forwards;
+}
+
+.ri li:nth-of-type(4){
+    position: absolute;
+    bottom: 20%;
+    right: 15%;
+    animation: move4 3s infinite alternate forwards;
+}
+
+@keyframes move4 {
+    0%{transform: rotate(-8deg);}
+}
+
+/*  */
+footer{
+    overflow: hidden;
+}
+
+footer p{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: #F8CABB;
+    font-size: 64px;
+    font-family: 'Noto Serif', serif;
+    text-align: right;
+    animation: footermove 1s forwards alternate;
+    transform: translateY(50%);
+    transition: .5s;
+}
+
+@keyframes footermove {
+    50%{transform: translateY(-20%); color: #F43B00;}
+    100%{transform: translateY(0%);}
+}
+
+
+
+/* clickMenu */
+
+.clickMenu{
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.clickMenu.active{
+    display: block;
+    /* transition: .5s; */
+}
+
+.clickRemove.active{
+    display: none;
+    transition: .5s;
+}
+
+.plusMenu{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 103px;
+}
+
+.plusMenu button{
+    border: 1px solid #F43B00;
+    background-color: #F43B00;
+    width: 103px;
+    height: 103px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.plusMenu span{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #FBF4E4;
+    width: 50px;
+}
+
+.plusMenu:hover span:nth-of-type(2){
+    transform: translate(-50%, -50%) rotate(90deg);
+    left: 49.5%;
+    transition: .5s;
+}
+
+.subMenu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.subMenu li{
+    margin: 100px 0;
+    text-align: center;
+}
+
+.subMenu a{
+    color: #222222;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subMenu li{
+    position: relative;
+}
+
+.subMenu li::after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    width: 0%;
+    height: 20px;
+    background-color: rgba(244,59,0,20%);
+    transition: .5s;
+}
+
+.subMenu li:hover::after{
+    width:100%;
+    left:0;
+}
+

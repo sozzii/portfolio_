@@ -1,0 +1,274 @@
+body{
+    background-color: #FAF8F6;
+}
+
+.head .menu p{
+    position: absolute;
+    top: 20px;
+    right: 23%;
+    border: 1px solid #F43B00;
+    border-radius: 100%;
+    background-color: #F43B00;
+    width: 12px;
+    height: 12px;
+    
+}
+
+
+.section1,.section2, .section3{
+    width: 1397px;
+    margin: 0px auto;
+    padding: 0;
+}
+
+.section2, .section3{
+    margin: 100px auto;
+}
+
+.section1 h1{
+    color: #F43B00;
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.my_photo{
+    width: 273px;
+}
+
+.my_photo img{    
+    animation: photoani 0.5s forwards;
+}
+
+@keyframes photoani{
+    0%{border-radius: 90%;}
+    50%{border-radius: 50%;}
+    100%{border-radius: 0%;}
+}
+
+.about{
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    margin: 0 50px;
+    line-height: 1.7;
+    color: #222222;
+}
+
+.info b{
+    font-size: 40px;
+}
+
+.info div{
+    
+    font-size:16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info div:nth-of-type(2){
+    margin: 50px 0 0 0;
+    font-weight: 400;
+}
+
+
+/**/
+
+.section2{
+
+    width: 100%;
+    background-color: #E1DFE0;
+    padding: 20px 0;
+}
+
+.feindsTalk{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1057px;
+    margin: 100px auto;
+}
+
+.feindsTalk .friends1 ul {
+    width: 450px;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+}
+
+.feindsTalk .friends1 ul li{
+    margin: 15px 0;
+}
+
+.feindsTalk .friends2 ul {
+    width: 450px;
+    position: absolute;
+    top: 12%;
+    right: inherit;
+}
+
+.feindsTalk .friends2 ul li{
+    margin: 15px 0;
+}
+
+/**/
+.section3{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.section3 h1{
+    color: #2A31A0;
+    font-size: 90px;    
+}
+
+.script{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 300px;
+}
+
+.note{
+    font-size: 18px;
+    color: #404040;
+    display: flex;
+    align-items: center;
+}
+
+.note1{
+    width: 429px;
+    height: 300px;
+    background-color: #fff;
+    padding: 20px 0;
+    border-radius: 0 0 80px 0;
+    line-height: 1.5;
+}
+
+.note1 b{
+    text-align: center;
+    font-size: 24px;
+    color: #2A31A0;
+    font-weight: 500;
+    display: block;
+}
+
+.note1 p{
+    margin: 50px;
+}
+
+
+.note2{
+    height: 180px;
+    margin: 50px 0;
+}
+
+.noteMargin{
+    margin: 0 50px;
+}
+
+.tape1{
+    position: absolute;
+    top: -25%;
+    left: -6%;
+    transform: rotate(-10deg);
+}
+
+.tape2{
+    position: absolute;
+    top: -25%;
+    left: 28%;
+    transform: rotate(-10deg);
+}
+
+.tape3{
+    position: absolute;
+    top: -25%;
+    right: 21.5%;
+    transform: rotate(-10deg);
+}
+
+.tape4{
+    position: absolute;
+    bottom: 35%;
+    left: -6%;
+    transform: rotate(-10deg);
+}
+
+.tape5{
+    position: absolute;
+    bottom: 35%;
+    left: 28.5%;
+    transform: rotate(-10deg);
+}
+
+.tape6{
+    position: absolute;
+    bottom: 35%;
+    right: 22%;
+    transform: rotate(-10deg);
+}
+
+/**/
+
+.section4{
+    position: relative;
+    background-color: #FBF4E4;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.group{
+    width: 1397px;
+    margin: 0 auto;
+}
+
+
+.section4 h1{
+    color: #F43B00;
+    font-size: 90px;  
+    margin: 0;
+}
+
+/* .section4 .line{
+    position: absolute;
+    left: 32.5%;
+    top: 23%;
+    border: 1px solid #595041;
+    background-color: #595041;
+    width: 457px;
+    display: block;
+} */
+
+.mbti, .enneagram{
+    width: 1397px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #404040;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+
+.mbti span, .enneagram span{
+    color: #F43B00;
+}
+
+.mbti b, .enneagram b{
+    color: #5C4F4C;
+    font-size: 30px;
+}
+
+.mbti ul li, .enneagram ul li{
+display: flex;
+align-items: center;
+}
+
+.mbti ul li img, .enneagram ul li img{
+    margin-right: 10px;
+}
+
+

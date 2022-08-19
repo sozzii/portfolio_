@@ -1,0 +1,129 @@
+body{
+    background-color: #FAF8F6;
+}
+
+.head .menu p{
+    position: absolute;
+    top: 20px;
+    right: 16.4%;
+    border: 1px solid #F43B00;
+    border-radius: 100%;
+    background-color: #F43B00;
+    width: 12px;
+    height: 12px;    
+}
+
+.all{
+    margin: 100px auto;
+    width: 1397px;
+}
+
+.title{
+    font-size: 60px;
+    font-family: 'Noto Serif', serif;
+    color: #5C4F4C;
+    font-weight: 500;
+    margin: 0 0 80px 0;
+}
+
+.checked img{
+    position: absolute;
+    top: -10px;
+    left: -5px;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.all li:hover .checked img{
+    opacity: 1;
+}
+
+.all ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 50px 0;
+}
+
+.all ul li{
+    position: relative;
+}
+
+/* .all ul li a{
+overflow: hidden;
+}
+
+.all ul li a img{
+    transition: .5s;
+}
+
+.all a:hover img{
+    transform: scale(1.1);
+} */
+
+li p:nth-of-type(1){
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+li span{
+    border: 1px solid #5C4F4C;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-right: 10px;
+}
+
+li img{
+    width: 650px;
+    height: 380px;
+}
+
+/*  */
+
+footer{
+    position: relative;
+    margin: 100px auto;
+    height: 100px;
+}
+
+.plus{
+    position: relative;
+}
+
+.plus button{
+    position: absolute;
+    left: calc(50% - 50px);
+    top: 0;
+    border: none;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.plus span{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #2A31A0;
+    background-color: #2A31A0;
+    border-radius: 3px;
+    width: 100px;
+}
+
+.plus span:nth-of-type(2){
+    transform:  rotate(90deg);
+    left: 0%;
+}
+
+.plus button:hover{
+    transform: rotate(135deg);
+}

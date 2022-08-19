@@ -1,0 +1,37 @@
+
+.svg1{
+    width: 400px;
+    position: absolute;
+    top: 70%;
+    right: -2%;
+}
+
+.svg2{
+    width: 400px;
+    position: absolute;
+    top: 60%;
+    left: -40%;
+}
+
+.baskerville{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+.color{
+    width: 300px;
+}
+
+.icons{
+    width: 1000px;
+}
+
+
+
+.section3{
+    text-align: center;
+}
+
+.next{
+    width: 280px;
+}
