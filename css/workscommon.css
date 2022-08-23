@@ -42,6 +42,10 @@ font-family: 'Noto Serif', serif;
     margin: 0 auto 50px auto;
 }
 
+li p:nth-of-type(2),li p:nth-of-type(3){
+    font-weight: 200;
+}
+
 .head .menu p{
     position: absolute;
     top: 10px;
