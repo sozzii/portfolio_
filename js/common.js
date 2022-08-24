@@ -1,3 +1,13 @@
+//반응형 바로보기
+const windowFeatures = "left=100,top=100,width=375,height=667";
+            function iphoneSE() {
+                $('.se').on('click', function(){
+                    window.open("https://sozzii.github.io/antieannes-clone/", "", windowFeatures);
+                })
+            }
+
+            iphoneSE();
+
 // top click
 $('.topBtn').on('click', function () {
     $('html').animate({ scrollTop: 0 }, 800);
