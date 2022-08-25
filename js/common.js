@@ -1,5 +1,5 @@
 //반응형 바로보기
-const windowFeatures = "left=100,top=100,width=375,height=667";
+const windowFeatures = "left=100,top=100,width=375,height=640";
             function iphoneSE() {
                 $('.se').on('click', function(){
                     window.open("https://sozzii.github.io/antieannes-clone/", "", windowFeatures);
