@@ -1,0 +1,74 @@
+@media (min-width: 360px) and (max-width: 768px) {
+  .head {
+    display: inline;
+    margin: 0px;
+  }
+  .logo {
+    font-size: 30px;
+  }
+  .plus {
+    transform: translate(-50%, 50%);
+  }
+  .sori {
+    display: none;
+  }
+  footer {
+    width: 100%;
+  }
+  footer p {
+    width: 100%;
+    font-size: 45px;
+  }
+  .subMenu a {
+    font-size: 25px;
+  }
+  .subMenu a .section h1 {
+    font-size: 30px;
+  }
+  .subMenu a .section1 .about {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .so li:nth-of-type(1) {
+    top: 30%;
+  }
+  .so li:nth-of-type(2) {
+    top: 45%;
+    left: 30%;
+  }
+  .so li:nth-of-type(3) {
+    bottom: 20%;
+  }
+  .ri li:nth-of-type(1) {
+    top: 35%;
+  }
+  .ri li:nth-of-type(2) {
+    top: 30%;
+  }
+  .ri li:nth-of-type(3) {
+    top: 50%;
+  }
+  .ri li:nth-of-type(4) {
+    bottom: 25%;
+  }
+  .about, .feindsTalk {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media (min-width: 1024px) and (max-width: 2600px) {
+  .plus {
+    transform: translateY(-50%);
+  }
+  footer {
+    width: 100%;
+  }
+  footer p {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+  }
+}/*# sourceMappingURL=mobile.css.map */

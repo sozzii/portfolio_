@@ -13,7 +13,7 @@ main{
     transform: translate(-50%, -50%);
     width: 103px;
     margin: 20% auto;
-    
+    z-index: 10;
 }
 
 .plus button{
@@ -126,19 +126,20 @@ main{
 
 /*  */
 footer{
-    overflow: hidden;
+    width: 100%;
+    
 }
 
 footer p{
-    position: absolute;
+    margin: 0 auto;
+    position: fixed;
     bottom: 5%;
-    right: 5%;
     color: #F8CABB;
     font-size: 64px;
     font-family: 'Noto Serif', serif;
     text-align: right;
     animation: footermove 1s forwards alternate;
-    transform: translateY(50%);
+    transform: translate(-50%, -50%);
     transition: .5s;
 }
 
